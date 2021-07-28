@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Git logo</title>
+   <style type="text/css" media="all">
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+      .center {
+         width: 100vw;
+         height: 100vh;
+         display: grid;
+         place-items: center;
+         background-color:rgb(213,213,213);
+      }
+      html {
+         font-size: 62.5%;
+      }
+      .logo {
+         width: 15rem;
+         height: 15rem;
+         background-color: #f05030;
+         border-radius: 1.5rem;
+         outline: none;
+         position: relative;
+         transform: rotate(45deg);
+         box-shadow: -34px 33px 49px -21px rgba(0,0,0,0.45);
+      }
+      .line1 {
+         width: 11rem;
+         height: 1.2rem;
+         background-color: #fff;
+         position: absolute;
+         top: 3.5rem;
+      }
+      .line1::before {
+         content: '';
+         width: 3rem;
+         height: 3rem;
+         background-color: #fff;
+         position: absolute;
+         border-radius: 50%;
+         top: -1rem;
+         left: 3rem;
+      }
+      .line1::after {
+         content: '';
+         width: 3rem;
+         height: 3rem;
+         background-color: #fff;
+         position: absolute;
+         border-radius: 50%;
+         top: -1rem;
+         right: -1rem;
+      }
+      .line2 {
+         width: 8.5rem;
+         height: 1.2rem;
+         background-color: #fff;
+         position: absolute;
+         top: 6.7rem;
+         left: 3.3rem;
+         transform: rotate(47deg);
+      }
+      .line2::before {
+         content: '';
+         width: 3rem;
+         height: 3rem;
+         background-color: #fff;
+         position: absolute;
+         border-radius: 50%;
+         top: -1rem;
+         right: -1rem;
+      }
+   </style>
+</head>
+<body>
+   <div class="center">
+      <div class="logo">
+         <div class="line1"></div>
+         <div class="line2"></div>
+      </div>
+   </div>
+</body>
+</html>
